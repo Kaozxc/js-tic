@@ -1,0 +1,17 @@
+#board {
+  border: 1px solid #000;
+}
+
+.cell {
+  border: 1px solid rgb(131, 74, 74);
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  padding: 5px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.cell:hover {
+  background: rgb(255, 10, 10);
+}
